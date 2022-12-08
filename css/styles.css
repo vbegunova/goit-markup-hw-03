@@ -1,0 +1,151 @@
+:root {
+    --primary-text-color: #434455;
+    --title-text-color:#2E2F42;
+    --accent-color: #4D5AE5;
+    --white-color: #FFFFFF;
+    --footer-logo-color: #F4F4FD;
+    --footer-text-color: #E7E9FC;
+} 
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    background-color: var(--white-color);
+    color: var(--primary-text-color);    
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* Logo */
+
+.accent {
+    color: var(--accent-color);
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--title-text-color);
+}
+
+/* Site navigation */
+
+.site-nav .link {
+    font-weight: 500;
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* Contacts */
+
+.contacts .link {
+    font-style: normal;
+    color: var(--primary-text-color)
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+    background-color: var(--title-text-color);
+}
+
+/* Hero title */
+
+.hero-title {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    color: var(--white-color);
+}
+
+/* Button */
+
+.button {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.primary {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+.secondary {
+    color: var(--accent-color);
+    background-color: #F4F4FD;
+}
+
+.hero .button {
+    line-height: 1.9;
+}
+
+/* Section title */
+
+.section-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--title-text-color);
+}
+
+/* Advantages, Team and Gallery */
+
+.advantage-list .title,
+.team-list .title,
+.gallery-list .title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--title-text-color);
+}
+
+.gallery-list .description {
+    color: var(--primary-text-color);
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--title-text-color);
+}
+
+.footer .logo {
+    color: var(--footer-logo-color);
+}
+
+.footer .text {
+    color: var(--footer-text-color);
+}
